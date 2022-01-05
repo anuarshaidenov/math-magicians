@@ -1,0 +1,32 @@
+$color-dark: rgb(105, 102, 102);
+$color-button: rgb(202, 197, 197);
+$color-primary: rgb(255, 162, 40);
+
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  &__result {
+    grid-column: 1/-1;
+    background-color: $color-dark;
+    color: #fff;
+    text-align: right;
+    font-size: 2rem;
+    padding: 2rem;
+  }
+
+  &__button {
+    padding: 2rem;
+    text-align: center;
+    background-color: $color-button;
+    border: 1px solid rgb(139, 139, 139);
+
+    &--primary {
+      background-color: $color-primary;
+    }
+
+    &--span-2 {
+      grid-column: span 2;
+    }
+  }
+}
