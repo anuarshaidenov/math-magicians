@@ -1,6 +1,12 @@
+import React from 'react';
 import './calculator.scss';
 
-class Calculator {
+class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
   render() {
     return (
       <div className="calculator">
@@ -20,7 +26,7 @@ class Calculator {
           type="button"
           className="calculator__button calculator__button--primary"
         >
-          +
+          ÷
         </button>
         <button type="button" className="calculator__button">
           7
