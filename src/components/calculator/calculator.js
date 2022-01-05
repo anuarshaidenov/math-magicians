@@ -1,8 +1,6 @@
-/* eslint-disable react/prefer-stateless-function */
-import React from 'react';
 import './calculator.scss';
 
-class Calculator extends React.Component {
+class Calculator {
   render() {
     return (
       <div className="calculator">
