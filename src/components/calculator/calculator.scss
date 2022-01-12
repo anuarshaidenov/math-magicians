@@ -7,6 +7,7 @@ $color-primary--darker: rgb(240, 158, 51);
 .calculator {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  max-width: 380px;
 
   &__result {
     grid-column: 1/-1;
