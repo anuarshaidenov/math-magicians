@@ -1,9 +1,9 @@
-/* eslint-disable object-curly-newline */
-/* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable react/prop-types */
 import './calcButton.scss';
 
-const CalcButton = ({ name, primary, span2, handleClick }) => (
+const CalcButton = ({
+  name, primary, span2, handleClick,
+}) => (
   <button
     name={name}
     onClick={handleClick}
