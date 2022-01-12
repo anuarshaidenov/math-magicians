@@ -1,0 +1,29 @@
+$color-button: rgb(202, 197, 197);
+$color-button--darker: rgb(179, 174, 174);
+$color-primary: rgb(255, 162, 40);
+$color-primary--darker: rgb(240, 158, 51);
+
+.calculator__button {
+  padding: 2rem;
+  text-align: center;
+  background-color: $color-button;
+  border: 1px solid rgb(139, 139, 139);
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: $color-button--darker;
+  }
+
+  &--primary {
+    background-color: $color-primary;
+
+    &:hover {
+      background-color: $color-primary--darker;
+      border: 1px solid $color-primary--darker;
+    }
+  }
+
+  &--span-2 {
+    grid-column: span 2;
+  }
+}
