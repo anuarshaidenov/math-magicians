@@ -1,4 +1,5 @@
-/* eslint-disable react/prop-types */
+import PropTypes from 'prop-types';
+
 import './calcButton.scss';
 
 const CalcButton = ({
@@ -15,5 +16,17 @@ const CalcButton = ({
     {name}
   </button>
 );
+
+CalcButton.propTypes = {
+  name: PropTypes.string.isRequired,
+  primary: PropTypes.bool,
+  span2: PropTypes.bool,
+  handleClick: PropTypes.func.isRequired,
+};
+
+CalcButton.defaultProps = {
+  primary: false,
+  span2: false,
+};
 
 export default CalcButton;
