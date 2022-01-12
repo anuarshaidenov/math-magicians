@@ -3,7 +3,7 @@
 /* eslint-disable react/prop-types */
 import './calcButton.scss';
 
-const CalcButton = ({ name, primary, span2, handleClick, ...otherProps }) => (
+const CalcButton = ({ name, primary, span2, handleClick }) => (
   <button
     name={name}
     onClick={handleClick}
@@ -11,7 +11,6 @@ const CalcButton = ({ name, primary, span2, handleClick, ...otherProps }) => (
     className={`calculator__button${
       span2 ? ' calculator__button--span-2' : ''
     }${primary ? ' calculator__button--primary' : ''}`}
-    {...otherProps}
   >
     {name}
   </button>

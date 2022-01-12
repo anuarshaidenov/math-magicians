@@ -28,7 +28,9 @@ class Calculator extends React.Component {
     return (
       <div className="calculator">
         <div name="0" className="calculator__result">
-          {`${total || ''} ${operation || ''} ${next || ''} `}
+          {!total && !next && !operation
+            ? '0'
+            : `${total || ''} ${operation || ''} ${next || ''}`}
         </div>
         <CalcButton name="AC" handleClick={this.handleClick} />
         <CalcButton name="+/-" handleClick={this.handleClick} />
