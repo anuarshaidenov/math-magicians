@@ -1,4 +1,5 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 
 import './App.scss';
 
@@ -16,7 +17,11 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        <Home />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/calculator" element={<div>calc</div>} />
+          <Route path="/quote" element={<div>quote</div>} />
+        </Routes>
       </div>
     );
   }

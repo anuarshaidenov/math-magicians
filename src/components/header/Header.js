@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 import './header.scss';
 
 const Header = () => (
@@ -5,9 +7,15 @@ const Header = () => (
     <span className="header__logo">Math Magicians</span>
     <nav className="header__nav">
       <ul className="header__links">
-        <li>Home</li>
-        <li>Calculator</li>
-        <li>Quote</li>
+        <li>
+          <NavLink to="/">Home</NavLink>
+        </li>
+        <li>
+          <NavLink to="/calculator">Calculator</NavLink>
+        </li>
+        <li>
+          <NavLink to="/quote">Quote</NavLink>
+        </li>
       </ul>
     </nav>
   </header>
