@@ -1,5 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:ital,wght@0,400;0,700;1,300&display=swap');
+
+$color-background: #e0d2b1;
+$color-text: #453f57;
+
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
+
+  &--small {
+    max-width: 860px;
+  }
+}
+
+.page {
+  padding: 3rem 0;
+}
+
+.heading {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 1rem;
+}
+
+button {
+  font-family: inherit;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: $color-background;
+  color: $color-text;
 }

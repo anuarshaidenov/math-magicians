@@ -2,7 +2,8 @@ import React from 'react';
 
 import './App.scss';
 
-import Calculator from './components/calculator/calculator';
+import Header from './components/header/Header';
+import Home from './pages/home/Home';
 
 class App extends React.Component {
   constructor(props) {
@@ -14,10 +15,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>wag1</h1>
-        <div className="container">
-          <Calculator />
-        </div>
+        <Header />
+        <Home />
       </div>
     );
   }
