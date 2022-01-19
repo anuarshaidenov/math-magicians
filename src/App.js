@@ -6,6 +6,7 @@ import './App.scss';
 import Header from './components/header/Header';
 import Home from './pages/home/Home';
 import Calculator from './pages/calculator/Calculator';
+import Quote from './pages/quote/Quote';
 
 class App extends React.Component {
   constructor(props) {
@@ -21,7 +22,7 @@ class App extends React.Component {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/calculator" element={<Calculator />} />
-          <Route path="/quote" element={<div>quote</div>} />
+          <Route path="/quote" element={<Quote />} />
         </Routes>
       </div>
     );

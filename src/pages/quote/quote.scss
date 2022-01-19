@@ -1,0 +1,17 @@
+.quote {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  height: 70vh;
+  justify-content: center;
+
+  &__text {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  &__author {
+    font-weight: 700;
+  }
+}
