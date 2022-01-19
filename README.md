@@ -5,7 +5,8 @@
 - Make simple calculations.
 - Read a random math-related quote.
 
-![screenshot](./screenshot.png)
+![screenshot](./screenshot-1.png)
+![screenshot](./screenshot-2.png)
 
 ## Built With
 
