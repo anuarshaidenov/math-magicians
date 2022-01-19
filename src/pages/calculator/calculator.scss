@@ -1,5 +1,12 @@
 .calculator-page {
   display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
+  justify-content: center;
+
+  &__heading {
+    width: 40%;
+  }
+
+  &__calculator {
+    width: 60%;
+  }
 }
