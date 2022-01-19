@@ -1,8 +1,12 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 
 import './App.scss';
 
-import Calculator from './components/calculator/calculator';
+import Header from './components/header/Header';
+import Home from './pages/home/Home';
+import Calculator from './pages/calculator/Calculator';
+import Quote from './pages/quote/Quote';
 
 class App extends React.Component {
   constructor(props) {
@@ -14,10 +18,12 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>wag1</h1>
-        <div className="container">
-          <Calculator />
-        </div>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/quote" element={<Quote />} />
+        </Routes>
       </div>
     );
   }

@@ -1,0 +1,12 @@
+.calculator-page {
+  display: flex;
+  justify-content: center;
+
+  &__heading {
+    width: 40%;
+  }
+
+  &__calculator {
+    width: 60%;
+  }
+}

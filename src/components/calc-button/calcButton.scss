@@ -1,25 +1,27 @@
-$color-button: rgb(202, 197, 197);
-$color-button--darker: rgb(179, 174, 174);
-$color-primary: rgb(255, 162, 40);
-$color-primary--darker: rgb(240, 158, 51);
+@use '../../App.scss' as app;
+
+$color-primary: app.$color-background;
+$color-primary--dark: darken($color-primary, 5%);
+$color-tertiary: #e63d6d;
+$color-tertiary--dark: darken($color-tertiary, 5%);
 
 .calculator__button {
   padding: 2rem;
   text-align: center;
-  background-color: $color-button;
-  border: 1px solid rgb(139, 139, 139);
+  background-color: $color-primary;
+  border: none;
   transition: background-color 0.2s ease;
+  font-weight: 700;
 
   &:hover {
-    background-color: $color-button--darker;
+    background-color: $color-primary--dark;
   }
 
   &--primary {
-    background-color: $color-primary;
+    background-color: $color-tertiary;
 
     &:hover {
-      background-color: $color-primary--darker;
-      border: 1px solid $color-primary--darker;
+      background-color: $color-tertiary--dark;
     }
   }
 
