@@ -16,11 +16,11 @@
 
 ### Netlify
 
-[Netlify Live Demo Link](https://keen-wozniak-e38afe.netlify.app/calculator)
+[Netlify Live Demo Link](https://keen-wozniak-e38afe.netlify.app/)
 
 ### Heroku
 
-[Heroku Live Demo Link](https://keen-wozniak-e38afe.netlify.app/calculator)
+[Heroku Live Demo Link](http://math-magicians-anuar.herokuapp.com/)
 
 ## Installation
 
