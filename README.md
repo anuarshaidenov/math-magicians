@@ -20,7 +20,7 @@
 
 ### Heroku
 
-[Heroku Live Demo Link](http://math-magicians-anuar.herokuapp.com/)
+[Heroku Live Demo Link](https://anuar-math-magicians.herokuapp.com/)
 
 ## Installation
 
