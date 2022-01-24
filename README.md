@@ -18,6 +18,10 @@
 
 [Netlify Live Demo Link](https://keen-wozniak-e38afe.netlify.app/calculator)
 
+### Heroku
+
+[Heroku Live Demo Link](https://keen-wozniak-e38afe.netlify.app/calculator)
+
 ## Installation
 
 Go to your terminal, navigate to your working directory and run
