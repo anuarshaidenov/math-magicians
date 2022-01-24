@@ -14,7 +14,9 @@
 
 ## Live Demo
 
-[Live Demo Link](https://anuarshaidenov.github.io/)
+### Netlify
+
+[Netlify Live Demo Link](https://keen-wozniak-e38afe.netlify.app/calculator)
 
 ## Installation
 
